@@ -14,10 +14,9 @@ turtle 的使用逻辑过于直观,因此造成了使用不便,翻了一遍文�
 # 坐标默认的原点在窗口的左上角，X 轴向右为正，Y 轴向下为正，度量单位是点;
 
 
-from turtle import *
-from math import *
 import _thread
-import time
+from math import *
+from turtle import *
 
 
 # 色彩变换是图像处理中最重要的一环
@@ -1160,7 +1159,7 @@ class MountPenglaiExamples:
         pass
 
     # CircleLineLink;
-    def MPE02(self, k_END=0, steps=3, Resolution=900):
+    def MPE02(self, k_END=2, steps=3, Resolution=900):
         self.SelfMP.initgraph(Resolution, Resolution)
         for k in range(k_END):
             self.SelfMP.BeginBatchDraw()
@@ -1194,6 +1193,7 @@ class MountPenglaiExamples:
                 i += 2
 
             self.SelfMP.EndBatchDraw()
+            done()
 
     # [分形] 渲染 Mandelbrot Set (曼德布洛特集);
     def MPE03(self, width=400, height=300):
