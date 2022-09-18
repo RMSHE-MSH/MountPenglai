@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='MountPenglai',  # package name
-    version='0.0.3.1',  # package version
+    version='0.0.3.2',  # package version
     author='RMSHE',
     author_email='asdfghjkl851@outlook.com',
     url='https://github.com/RMSHE-MSH/Python-Homework-Open-Source-Project',

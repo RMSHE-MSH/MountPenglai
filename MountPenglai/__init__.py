@@ -17,6 +17,7 @@ turtle 的使用逻辑过于直观,因此造成了使用不便,翻了一遍文�
 import _thread
 from math import *
 from turtle import *
+import time
 
 
 # 色彩变换是图像处理中最重要的一环
